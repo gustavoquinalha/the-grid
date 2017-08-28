@@ -1,331 +1,319 @@
 /* container */
-
 .container {
-    display: flex
-}
-.col {
-  display: flex;
-  width: 100%;
+	display: flex
 }
 
 .container-inline {
-    display: inline-flex
+	display: inline-flex
 }
 
 .container-fluid {
-    display: flex;
-    width: 100%;
+	width: 100%;
 }
 
 .wrap {
-    flex-wrap: wrap
+	flex-wrap: wrap
 }
 
 .no-wrap {
-    flex-wrap: nowrap
+	flex-wrap: nowrap
 }
 
 .wrap-reverse {
-    flex-wrap: wrap-reverse
+	flex-wrap: wrap-reverse
 }
 
 .row {
-    flex-direction: row
+	flex-direction: row
 }
 
 .row-reverse {
-    flex-direction: row-reverse
+	flex-direction: row-reverse
 }
 
 .column {
-    flex-direction: column
+	flex-direction: column
 }
 
 .column-reverse {
-    flex-direction: column-reverse
+	flex-direction: column-reverse
 }
 
 .justify-content-start {
-    justify-content: flex-start
+	justify-content: flex-start
 }
 
 .justify-content-center {
-    justify-content: center
+	justify-content: center
 }
 
 .justify-content-end {
-    justify-content: flex-end
+	justify-content: flex-end
 }
 
 .justify-content-between {
-    justify-content: space-between
+	justify-content: space-between
 }
 
 .justify-content-around {
-    justify-content: space-around
+	justify-content: space-around
 }
 
 .align-items-start {
-    align-items: flex-start
+	align-items: flex-start
 }
 
 .align-items-center {
-    align-items: center
+	align-items: center
 }
 
 .align-items-end {
-    align-items: flex-end
+	align-items: flex-end
 }
 
 .align-items-baseline {
-    align-items: baseline
+	align-items: baseline
 }
 
 .align-items-stretch {
-    align-items: stretch
+	align-items: stretch
 }
-
-
 /* container */
 
-
 /* items */
-
 .align-self-auto {
-    align-self: auto
+	align-self: auto
 }
 
 .align-self-start {
-    align-self: flex-start
+	align-self: flex-start
 }
 
 .align-self-center {
-    align-self: center
+	align-self: center
 }
 
 .align-self-end {
-    align-self: flex-end
+	align-self: flex-end
 }
 
 .align-self-baseline {
-    align-self: baseline
+	align-self: baseline
 }
 
 .align-self-stretch {
-    align-self: stretch
+	align-self: stretch
 }
 
 .flex-grow-1 {
-    flex-grow: 1
+	flex-grow: 1
 }
 
 .flex-grow-2 {
-    flex-grow: 2
+	flex-grow: 2
 }
 
 .flex-grow-3 {
-    flex-grow: 3
+	flex-grow: 3
 }
 
 .flex-grow-4 {
-    flex-grow: 4
+	flex-grow: 4
 }
 
 .flex-grow-5 {
-    flex-grow: 5
+	flex-grow: 5
 }
 
 .flex-grow-6 {
-    flex-grow: 6
+	flex-grow: 6
 }
 
 .flex-grow-7 {
-    flex-grow: 7
+	flex-grow: 7
 }
 
 .flex-grow-8 {
-    flex-grow: 8
+	flex-grow: 8
 }
 
 .flex-grow-9 {
-    flex-grow: 9
+	flex-grow: 9
 }
 
 .flex-grow-10 {
-    flex-grow: 10
+	flex-grow: 10
 }
 
 .flex-grow-11 {
-    flex-grow: 11
+	flex-grow: 11
 }
 
 .flex-grow-12 {
-    flex-grow: 12
+	flex-grow: 12
 }
 
 .flex-basis-10 {
-    flex-basis: 10px
+	flex-basis: 10px
 }
 
 .flex-basis-15 {
-    flex-basis: 15px
+	flex-basis: 15px
 }
 
 .flex-basis-20 {
-    flex-basis: 20px
+	flex-basis: 20px
 }
 
 .flex-basis-25 {
-    flex-basis: 25px
+	flex-basis: 25px
 }
 
 .flex-basis-30 {
-    flex-basis: 30px
+	flex-basis: 30px
 }
 
 .flex-basis-35 {
-    flex-basis: 35px
+	flex-basis: 35px
 }
 
 .flex-basis-40 {
-    flex-basis: 40px
+	flex-basis: 40px
 }
 
 .flex-basis-45 {
-    flex-basis: 45px
+	flex-basis: 45px
 }
 
 .flex-basis-50 {
-    flex-basis: 50px
+	flex-basis: 50px
 }
 
 .flex-basis-55 {
-    flex-basis: 55px
+	flex-basis: 55px
 }
 
 .flex-basis-60 {
-    flex-basis: 60px
+	flex-basis: 60px
 }
 
 .flex-basis-65 {
-    flex-basis: 65px
+	flex-basis: 65px
 }
 
 .flex-basis-70 {
-    flex-basis: 70px
+	flex-basis: 70px
 }
 
 .flex-basis-75 {
-    flex-basis: 75px
+	flex-basis: 75px
 }
 
 .flex-basis-80 {
-    flex-basis: 70px
+	flex-basis: 70px
 }
 
 .flex-basis-85 {
-    flex-basis: 75px
+	flex-basis: 75px
 }
 
 .flex-basis-90 {
-    flex-basis: 70px
+	flex-basis: 70px
 }
 
 .flex-basis-95 {
-    flex-basis: 75px
+	flex-basis: 75px
 }
 
 .flex-basis-100 {
-    flex-basis: 100px
+	flex-basis: 100px
 }
 
 .flex-basis-150 {
-    flex-basis: 150px
+	flex-basis: 150px
 }
 
 .flex-basis-200 {
-    flex-basis: 200px
+	flex-basis: 200px
 }
 
 .flex-basis-250 {
-    flex-basis: 250px
+	flex-basis: 250px
 }
 
 .flex-basis-300 {
-    flex-basis: 300px
+	flex-basis: 300px
 }
 
 .flex-basis-350 {
-    flex-basis: 350px
+	flex-basis: 350px
 }
 
 .flex-basis-400 {
-    flex-basis: 400px
+	flex-basis: 400px
 }
 
 .flex-basis-450 {
-    flex-basis: 450px
+	flex-basis: 450px
 }
 
 .flex-basis-500 {
-    flex-basis: 500px
+	flex-basis: 500px
 }
 
 .flex-basis-550 {
-    flex-basis: 550px
+	flex-basis: 550px
 }
 
 .flex-basis-600 {
-    flex-basis: 600px
+	flex-basis: 600px
 }
 
 .flex-basis-650 {
-    flex-basis: 650px
+	flex-basis: 650px
 }
 
 .flex-basis-700 {
-    flex-basis: 700px
+	flex-basis: 700px
 }
 
 .flex-basis-750 {
-    flex-basis: 750px
+	flex-basis: 750px
 }
 
 .flex-basis-800 {
-    flex-basis: 800px
+	flex-basis: 800px
 }
 
 .flex-basis-850 {
-    flex-basis: 850px
+	flex-basis: 850px
 }
 
 .flex-basis-900 {
-    flex-basis: 900px
+	flex-basis: 900px
 }
 
 .flex-basis-950 {
-    flex-basis: 950px
+	flex-basis: 950px
 }
 
 .flex-basis-1000 {
-    flex-basis: 1000px
+	flex-basis: 1000px
 }
 
 .flex-basis-1050 {
-    flex-basis: 1050px
+	flex-basis: 1050px
 }
 
 .flex-basis-1100 {
-    flex-basis: 1100px
+	flex-basis: 1100px
 }
 
 .flex-basis-1150 {
-    flex-basis: 1150px
+	flex-basis: 1150px
 }
 
 .flex-basis-1200 {
-    flex-basis: 1200px
+	flex-basis: 1200px
 }
-
-
 /* items */

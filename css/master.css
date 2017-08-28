@@ -4,21 +4,25 @@
     font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
     /* color: #222 */
 }
+html, body {
+  height: 100%
+}
 
 pre,
 code {
-  width: 100%;
-  box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
 }
+
 .hljs {
-  background: #222!important
+    background: #222!important
 }
 
 .head {
-    min-height: 100vh;
+    min-height: 100vh!important;
     width: 100%;
     padding: 0!important;
-    text-align: center
+    text-align: center;
 }
 
 .head h1 {
@@ -62,14 +66,10 @@ code {
 }
 
 .container.column .box,
-.container.column-reverse .box {
-  
-}
+.container.column-reverse .box {}
 
 .example .container.no-wrap .box,
-.example .container.wrap .box {
-  
-}
+.example .container.wrap .box {}
 
 .example .container.no-wrap .box.flex-grow-1,
 .example .container.wrap .box.flex-grow-1,
@@ -94,6 +94,12 @@ code {
 .example .container.no-wrap .box.flex-grow-11,
 .example .container.wrap .box.flex-grow-11,
 .example .container.no-wrap .box.flex-grow-12,
-.example .container.wrap .box.flex-grow-12 {
-  
+.example .container.wrap .box.flex-grow-12 {}
+
+.align-items-stretch,
+.align-items-baseline,
+.align-items-start,
+.align-items-center,
+.align-items-end{
+  min-height: 200px;
 }

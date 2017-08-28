@@ -16,8 +16,8 @@
 
 <body>
 
-  <div class="column container align-items-center justify-content-center">
-    <div class="head container column align-items-center justify-content-center">
+  <div class="head container column align-items-center justify-content-center">
+    <div>
       <h1><small>The</small>Grid</h1>
       <p>Simple grid based in flexbox.</p>
     </div>
@@ -116,6 +116,155 @@
 </code></pre>
     </div>
 
+
+    <div class="example column container align-items-center justify-content-center">
+      <h1>Justify-content</h1>
+
+      <div class="container justify-content-start">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container justify-content-start&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+      <div class="container justify-content-center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container justify-content-center&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+      <div class="container justify-content-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container justify-content-end&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+      <div class="container justify-content-between">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container justify-content-between&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+      <div class="container justify-content-around">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container justify-content-around&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="example column container align-items-center justify-content-center">
+      <h1>Align-items</h1>
+
+      <div class="container align-items-start">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-start&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+      <div class="container align-items-center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-center&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+      <div class="container align-items-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-end&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+      <div class="container align-items-baseline">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-baseline&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+      <div class="container align-items-stretch">
+        <div class="box">1</div>
+        <div class="box">2</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-stretch&quot;&gt;
+  &lt;div class=&quot;&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;&quot;&gt;2&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+    </div>
+
+    <div class="example column container align-items-center justify-content-center">
+      <h1>Align-self</h1>
+
+      <div class="container align-items-center">
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box align-self-start">3</div>
+        <div class="box align-self-center">3</div>
+        <div class="box align-self-end">2</div>
+        <div class="box align-self-stretch">4</div>
+      </div>
+      <pre><code class="html">
+&lt;div class=&quot;container align-items-center&quot;&gt;
+    &lt;div class=&quot;box&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;box&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;box&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;box align-self-start&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;box align-self-center&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;box align-self-end&quot;&gt;2&lt;/div&gt;
+    &lt;div class=&quot;box align-self-stretch&quot;&gt;4&lt;/div&gt;
+  &lt;/div&gt;
+
+</code></pre>
+    </div>
 
     <div class="example column container align-items-center justify-content-center">
       <h1>Flex-grow</h1>
@@ -285,28 +434,29 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;flex-basis-800&quot;&gt;8&lt;/div&gt;
+  &lt;div class=&quot;flex-basis-800&quot;&gt;8&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;flex-basis-900&quot;&gt;9&lt;/div&gt;
+  &lt;div class=&quot;flex-basis-900&quot;&gt;9&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;flex-basis-1000&quot;&gt;10&lt;/div&gt;
+  &lt;div class=&quot;flex-basis-1000&quot;&gt;10&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;flex-basis-1100&quot;&gt;11&lt;/div&gt;
+  &lt;div class=&quot;flex-basis-1100&quot;&gt;11&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;flex-basis-1200&quot;&gt;12&lt;/div&gt;
+  &lt;div class=&quot;flex-basis-1200&quot;&gt;12&lt;/div&gt;
 &lt;/div&gt;
 
 </code></pre>
-
     </div>
+
+
 
 
   </div>
