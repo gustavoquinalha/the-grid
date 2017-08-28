@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222
+}
+
+.size {
+    width: 1200px;
+    max-width: 90%;
+}
+
+.margin {
+    margin: 0 auto
+}
+
+.example {
+    min-height: 100vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    box-sizing: border-box
+}
+
+.example .container {
+    background: #222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.box {
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    flex-basis: 300px
+}
+
+.container.column .box,
+.container.column-reverse .box {
+    flex-basis: 10px
+}
+
+.example .container.no-wrap .box,
+.example .container.wrap .box {
+    flex-basis: 400px
+}
+
+.example .container.no-wrap .box.flex-grow-1,
+.example .container.wrap .box.flex-grow-1,
+.example .container.no-wrap .box.flex-grow-2,
+.example .container.wrap .box.flex-grow-2,
+.example .container.no-wrap .box.flex-grow-3,
+.example .container.wrap .box.flex-grow-3,
+.example .container.no-wrap .box.flex-grow-4,
+.example .container.wrap .box.flex-grow-4,
+.example .container.no-wrap .box.flex-grow-5,
+.example .container.wrap .box.flex-grow-5,
+.example .container.no-wrap .box.flex-grow-6,
+.example .container.wrap .box.flex-grow-6,
+.example .container.no-wrap .box.flex-grow-7,
+.example .container.wrap .box.flex-grow-7,
+.example .container.no-wrap .box.flex-grow-8,
+.example .container.wrap .box.flex-grow-8,
+.example .container.no-wrap .box.flex-grow-9,
+.example .container.wrap .box.flex-grow-9,
+.example .container.no-wrap .box.flex-grow-10,
+.example .container.wrap .box.flex-grow-10,
+.example .container.no-wrap .box.flex-grow-11,
+.example .container.wrap .box.flex-grow-11,
+.example .container.no-wrap .box.flex-grow-12,
+.example .container.wrap .box.flex-grow-12 {
+    flex-basis: auto
+}
