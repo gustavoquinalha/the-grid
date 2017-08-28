@@ -3,6 +3,10 @@
 .container {
     display: flex
 }
+.col {
+  display: flex;
+  width: 100%;
+}
 
 .container-inline {
     display: inline-flex

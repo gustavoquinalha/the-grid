@@ -1,8 +1,34 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: #222 */
+}
+
+pre,
+code {
+  width: 100%;
+  box-sizing: border-box;
+}
+.hljs {
+  background: #222!important
+}
+
+.head {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0!important;
+    text-align: center
+}
+
+.head h1 {
+    font-size: 6em;
     color: #222
+}
+
+.head p {
+    font-size: 1.7em;
+    color: rgba(34, 34, 34, 0.7)
 }
 
 .size {
@@ -15,7 +41,7 @@
 }
 
 .example {
-    min-height: 100vh;
+    min-height: 50vh;
     padding-top: 20vh;
     padding-bottom: 20vh;
     box-sizing: border-box
@@ -32,17 +58,17 @@
     margin: 10px;
     background: #fff;
     padding: 20px;
-    flex-basis: 300px
+    /* width: 280px */
 }
 
 .container.column .box,
 .container.column-reverse .box {
-    flex-basis: 10px
+  
 }
 
 .example .container.no-wrap .box,
 .example .container.wrap .box {
-    flex-basis: 400px
+  
 }
 
 .example .container.no-wrap .box.flex-grow-1,
@@ -69,5 +95,5 @@
 .example .container.wrap .box.flex-grow-11,
 .example .container.no-wrap .box.flex-grow-12,
 .example .container.wrap .box.flex-grow-12 {
-    flex-basis: auto
+  
 }
