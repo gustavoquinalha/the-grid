@@ -4,8 +4,10 @@
     font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
     /* color: #222 */
 }
-html, body {
-  height: 100%
+
+html,
+body {
+    height: 100%
 }
 
 pre,
@@ -25,6 +27,11 @@ code {
     text-align: center;
 }
 
+.head-box {
+    width: 400px;
+    max-width: 90%;
+}
+
 .head h1 {
     font-size: 6em;
     color: #222
@@ -38,6 +45,10 @@ code {
 .size {
     width: 1200px;
     max-width: 90%;
+}
+
+.example h1 {
+    font-size: 2.5em!important;
 }
 
 .margin {
@@ -100,6 +111,21 @@ code {
 .align-items-baseline,
 .align-items-start,
 .align-items-center,
-.align-items-end{
-  min-height: 200px;
+.align-items-end {
+    min-height: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .head {
+        min-height: 50vh!important;
+    }
+    .head h1 {
+        font-size: 3em;
+    }
+    .head p {
+        font-size: 1em;
+    }
+    .example h1 {
+        font-size: 1.5em!important;
+    }
 }
