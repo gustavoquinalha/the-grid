@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/the-grid.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-
   <link rel="stylesheet" href="js/highlightjs/styles/dracula.css">
 
 </head>
 
 <body>
+
+
 
   <div class="head container column align-items-center justify-content-center">
     <div class="head-box">
@@ -22,11 +23,83 @@
       <div class="hr">
         <hr class="green">
       </div>
-      <p>Simple grid based in flexbox without media queries.</p>
+      <p>Simple grid based in flexbox.</p>
     </div>
   </div>
 
   <div class="size margin">
+
+    <div class="example column container align-items-center justify-content-center">
+      <h1>Grid based on 12 columns</h1>
+
+      <div class="container">
+        <div class="col-1 col-xl-1 order-xl-1 order-sm-12 order-12">1</div>
+        <div class="col-2 col-xl-2 order-xl-2 order-sm-11 order-11">2</div>
+        <div class="col-3 col-xl-3 order-xl-3 order-sm-10 order-10">3</div>
+        <div class="col-4 col-xl-4 order-xl-4 order-sm-9 order-9">4</div>
+        <div class="col-5 col-xl-5 order-xl-5 order-sm-8 order-8">5</div>
+        <div class="col-6 col-xl-6 order-xl-6 order-sm-7 order-7">6</div>
+        <div class="col-7 col-xl-7 order-xl-7 order-sm-6 order-6">7</div>
+        <div class="col-8 col-xl-8 order-xl-8 order-sm-5 order-5">8</div>
+        <div class="col-9 col-xl-9 order-xl-9 order-sm-4 order-4">9</div>
+        <div class="col-10 col-xl-10 order-xl-10 order-sm-3 order-3">10</div>
+        <div class="col-11 col-xl-11 order-xl-11 order-sm-2 order-2">11</div>
+        <div class="col-12 col-xl-12 order-xl-12 order-sm-1 order-1">12</div>
+      </div>
+
+      <pre><code class="html">
+ &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;col-1 col-xl-1 order-xl-1 order-sm-12 order-12&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;col-2 col-xl-2 order-xl-2 order-sm-11 order-11&quot;&gt;2&lt;/div&gt;
+    &lt;div class=&quot;col-3 col-xl-3 order-xl-3 order-sm-10 order-10&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;col-4 col-xl-4 order-xl-4 order-sm-9 order-9&quot;&gt;4&lt;/div&gt;
+    &lt;div class=&quot;col-5 col-xl-5 order-xl-5 order-sm-8 order-8&quot;&gt;5&lt;/div&gt;
+    &lt;div class=&quot;col-6 col-xl-6 order-xl-6 order-sm-7 order-7&quot;&gt;6&lt;/div&gt;
+    &lt;div class=&quot;col-7 col-xl-7 order-xl-7 order-sm-6 order-6&quot;&gt;7&lt;/div&gt;
+    &lt;div class=&quot;col-8 col-xl-8 order-xl-8 order-sm-5 order-5&quot;&gt;8&lt;/div&gt;
+    &lt;div class=&quot;col-9 col-xl-9 order-xl-9 order-sm-4 order-4&quot;&gt;9&lt;/div&gt;
+    &lt;div class=&quot;col-10 col-xl-10 order-xl-10 order-sm-3 order-3&quot;&gt;10&lt;/div&gt;
+    &lt;div class=&quot;col-11 col-xl-11 order-xl-11 order-sm-2 order-2&quot;&gt;11&lt;/div&gt;
+    &lt;div class=&quot;col-12 col-xl-12 order-xl-12 order-sm-1 order-1&quot;&gt;12&lt;/div&gt;
+  &lt;/div&gt;
+
+</code></pre>
+
+      <div class="container column">
+        <div class="col-1 col-xl-1 order-xl-1 order-sm-12 order-12">1</div>
+        <div class="col-2 col-xl-2 order-xl-2 order-sm-11 order-11">2</div>
+        <div class="col-3 col-xl-3 order-xl-3 order-sm-10 order-10">3</div>
+        <div class="col-4 col-xl-4 order-xl-4 order-sm-9 order-9">4</div>
+        <div class="col-5 col-xl-5 order-xl-5 order-sm-8 order-8">5</div>
+        <div class="col-6 col-xl-6 order-xl-6 order-sm-7 order-7">6</div>
+        <div class="col-7 col-xl-7 order-xl-7 order-sm-6 order-6">7</div>
+        <div class="col-8 col-xl-8 order-xl-8 order-sm-5 order-5">8</div>
+        <div class="col-9 col-xl-9 order-xl-9 order-sm-4 order-4">9</div>
+        <div class="col-10 col-xl-10 order-xl-10 order-sm-3 order-3">10</div>
+        <div class="col-11 col-xl-11 order-xl-11 order-sm-2 order-2">11</div>
+        <div class="col-12 col-xl-12 order-xl-12 order-sm-1 order-1">12</div>
+      </div>
+
+      <pre><code class="html">
+ &lt;div class=&quot;container column&quot;&gt;
+    &lt;div class=&quot;col-1 col-xl-1 order-xl-1 order-sm-12 order-12&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;col-2 col-xl-2 order-xl-2 order-sm-11 order-11&quot;&gt;2&lt;/div&gt;
+    &lt;div class=&quot;col-3 col-xl-3 order-xl-3 order-sm-10 order-10&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;col-4 col-xl-4 order-xl-4 order-sm-9 order-9&quot;&gt;4&lt;/div&gt;
+    &lt;div class=&quot;col-5 col-xl-5 order-xl-5 order-sm-8 order-8&quot;&gt;5&lt;/div&gt;
+    &lt;div class=&quot;col-6 col-xl-6 order-xl-6 order-sm-7 order-7&quot;&gt;6&lt;/div&gt;
+    &lt;div class=&quot;col-7 col-xl-7 order-xl-7 order-sm-6 order-6&quot;&gt;7&lt;/div&gt;
+    &lt;div class=&quot;col-8 col-xl-8 order-xl-8 order-sm-5 order-5&quot;&gt;8&lt;/div&gt;
+    &lt;div class=&quot;col-9 col-xl-9 order-xl-9 order-sm-4 order-4&quot;&gt;9&lt;/div&gt;
+    &lt;div class=&quot;col-10 col-xl-10 order-xl-10 order-sm-3 order-3&quot;&gt;10&lt;/div&gt;
+    &lt;div class=&quot;col-11 col-xl-11 order-xl-11 order-sm-2 order-2&quot;&gt;11&lt;/div&gt;
+    &lt;div class=&quot;col-12 col-xl-12 order-xl-12 order-sm-1 order-1&quot;&gt;12&lt;/div&gt;
+  &lt;/div&gt;
+
+</code></pre>
+    </div>
+
+
 
     <div class="example column container align-items-center justify-content-center">
       <h1>Container row</h1>

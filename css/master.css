@@ -134,11 +134,20 @@ code {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .hr .green {
     width: 100px;
     height: 10px;
     border-radius: 20px;
     background: #50fa7b;
-     border: none;
-     margin: 0 auto
+    border: none;
+    margin: 0 auto
+}
+
+[class*="col-"] {
+    background: #50fa7b;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box
 }
