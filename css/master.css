@@ -62,18 +62,12 @@ code {
     box-sizing: border-box
 }
 
-.example .container {
+.example .container,
+.example .row {
     background: #222;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-}
-
-.box {
-    margin: 10px;
-    background: #fff;
-    padding: 20px;
-    /* width: 280px */
 }
 
 .container.column .box,
@@ -115,21 +109,6 @@ code {
     min-height: 200px;
 }
 
-@media screen and (max-width: 480px) {
-    .head {
-        min-height: 50vh!important;
-    }
-    .head h1 {
-        font-size: 3em;
-    }
-    .head p {
-        font-size: 1em;
-    }
-    .example h1 {
-        font-size: 1.5em!important;
-    }
-}
-
 .hr {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -143,6 +122,7 @@ code {
     border: none;
     margin: 0 auto
 }
+
 .box,
 [class*="basis-"],
 [class*="basis-"],
@@ -154,4 +134,26 @@ code {
     box-sizing: border-box;
     color: #fff;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .head {
+        min-height: 50vh!important;
+    }
+    .head h1 {
+        font-size: 3em;
+    }
+    .head p {
+        font-size: 1em;
+    }
+    .example h1 {
+        font-size: 1.5em!important;
+    }
+    .box,
+    [class*="basis-"],
+    [class*="basis-"],
+    [class*="col-"] {
+        margin: 5px!important;
+        padding: 5px!important;
+    }
 }
