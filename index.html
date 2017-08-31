@@ -20,18 +20,50 @@
   <div class="head container column align-items-center justify-content-center">
     <div class="head-box">
       <h1><small>The</small>Grid</h1>
-      <img src="teste.svg" width="200">
       <div class="hr">
         <hr class="green">
       </div>
-      <p>Simple grid based in flexbox.</p>
+      <p>Simple grid based in flexbox. Botstrap 4 compatible.</p>
     </div>
   </div>
 
   <div class="size margin">
 
     <div class="example column container align-items-center justify-content-center">
-      <h1>Grid based on 12 columns</h1>
+      <h1>Grid based on 12 columns <small>(Like a bootstrap 4)</small></h1>
+
+      <div class="container column">
+        <div class="col-1 ">1</div>
+        <div class="col-2 ">2</div>
+        <div class="col-3 ">3</div>
+        <div class="col-4 ">4</div>
+        <div class="col-5 ">5</div>
+        <div class="col-6 ">6</div>
+        <div class="col-7 ">7</div>
+        <div class="col-8 ">8</div>
+        <div class="col-9 ">9</div>
+        <div class="col-10 ">10</div>
+        <div class="col-11 ">11</div>
+        <div class="col-12 ">12</div>
+      </div>
+
+      <pre><code class="html">
+ &lt;div class=&quot;container column&quot;&gt;
+    &lt;div class=&quot;col-1&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;col-2&quot;&gt;2&lt;/div&gt;
+    &lt;div class=&quot;col-3&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;col-4&quot;&gt;4&lt;/div&gt;
+    &lt;div class=&quot;col-5&quot;&gt;5&lt;/div&gt;
+    &lt;div class=&quot;col-6&quot;&gt;6&lt;/div&gt;
+    &lt;div class=&quot;col-7&quot;&gt;7&lt;/div&gt;
+    &lt;div class=&quot;col-8&quot;&gt;8&lt;/div&gt;
+    &lt;div class=&quot;col-9&quot;&gt;9&lt;/div&gt;
+    &lt;div class=&quot;col-10&quot;&gt;10&lt;/div&gt;
+    &lt;div class=&quot;col-11&quot;&gt;11&lt;/div&gt;
+    &lt;div class=&quot;col-12&quot;&gt;12&lt;/div&gt;
+  &lt;/div&gt;
+
+</code></pre>
 
       <div class="container column">
         <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">1</div>
@@ -65,10 +97,21 @@
   &lt;/div&gt;
 
 </code></pre>
+
+      <div class="container">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">1</div>
+      </div>
+
+      <pre><code class="html">
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3&quot;&gt;1&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
     </div>
 
-    <!--<div class="example column container align-items-center justify-content-center">
-      <h1>Grid based on 12 columns</h1>
+    <div class="example column container align-items-center justify-content-center">
+      <h1>Order control<small>(Resize screen)</small></h1>
 
       <div class="container column">
         <div class="col-1 col-xl-1 order-xl-1 order-sm-12 order-12">1</div>
@@ -102,7 +145,7 @@
   &lt;/div&gt;
 
 </code></pre>
-    </div>-->
+    </div>
 
 
 
