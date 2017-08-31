@@ -1,0 +1,23 @@
+{
+  "name": "the-grid",
+  "version": "1.0.0",
+  "description": "flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lr-http-server -p 4200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoquinalha/the-grid.git"
+  },
+  "author": "gustavoquinalha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoquinalha/the-grid/issues"
+  },
+  "homepage": "https://github.com/gustavoquinalha/the-grid#readme",
+  "devDependencies": {
+    "lr-http-server": "^0.1.5"
+  }
+}
