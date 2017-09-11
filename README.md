@@ -1,9 +1,5 @@
 # the-grid
-- intro
-- environment
-- pensamento
-- formando a ideia
-- o grid
+npm i the-grid-flexbox
 
 
 # examples
