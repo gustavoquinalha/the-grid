@@ -1,10 +1,8 @@
 {
-  "name": "the-grid",
+  "name": "the-grid-flexbox",
   "version": "1.0.0",
   "description": "flexbox",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lr-http-server -p 4200"
   },
   "repository": {
