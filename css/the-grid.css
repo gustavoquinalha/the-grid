@@ -1,12 +1,7 @@
-html {
-    box-sizing: border-box;
-    -ms-overflow-style: scrollbar;
-}
-
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 
