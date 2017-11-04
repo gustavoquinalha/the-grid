@@ -34,10 +34,6 @@ html {
     display: inline-flex
 }
 
-.container-fluid {
-    width: 100%;
-}
-
 .wrap {
     flex-wrap: wrap
 }
