@@ -1,5 +1,7 @@
 # the-grid
+```
 npm i the-grid-flexbox
+
 
 
 # examples
