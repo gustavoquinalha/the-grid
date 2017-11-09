@@ -1,8 +1,7 @@
 # the-grid
 ```
-npm i the-grid-flexbox
-
-
+npm i the-grid-flexbox -D
+```
 
 # examples
 - http://basscss.com/ace/
