@@ -1,6 +1,6 @@
 {
   "name": "the-grid-flexbox",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "flexbox",
   "scripts": {
     "dev": "lr-http-server -p 4200"
