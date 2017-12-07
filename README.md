@@ -1,6 +1,10 @@
-# the-grid
+# Install
 ```
 npm i the-grid-flexbox -D
+```
+or use CDN
+```
+https://cdn.jsdelivr.net/npm/the-grid-flexbox@1.0.1/css/the-grid.min.css
 ```
 
 # examples
