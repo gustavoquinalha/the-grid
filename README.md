@@ -1,4 +1,7 @@
 <p align="center">
+> version | 2.0.1
+ <img src="https://img.shields.io/github/issues/gustavoquinalha/the-grid.svg">
+ <img src="https://img.shields.io/github/license/gustavoquinalha/the-grid.svg">
 <!--   <a href="http://quinalha.me/the-grid/">
     <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width=72 height=72>
   </a> -->

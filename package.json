@@ -9,8 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/gustavoquinalha/the-grid.git"
   },
-  "author": "gustavoquinalha",
-  "license": "ISC",
+  "author": "gustavoquinalha<gusquinalha@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gustavoquinalha/the-grid/issues"
   },
