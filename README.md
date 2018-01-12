@@ -1,8 +1,7 @@
-> version | 2.0.1
-<p align="center">
-<img src="	https://img.shields.io/npm/v/the-grid.svg">
+<img src="https://img.shields.io/badge/version-2.0.1-green.svg">
 <img src="https://img.shields.io/github/issues/gustavoquinalha/the-grid.svg">
 <img src="https://img.shields.io/github/license/gustavoquinalha/the-grid.svg">
+<p align="center">
 <!--   <a href="http://quinalha.me/the-grid/">
     <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width=72 height=72>
   </a> -->
