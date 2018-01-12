@@ -1,7 +1,16 @@
 {
   "name": "the-grid-flexbox",
   "version": "2.0.1",
-  "description": "flexbox",
+  "description": "Simple grid based in flexbox. Botstrap 4 compatible.",
+  "keywords": [
+  "css",
+  "sass",
+  "mobile-first",
+  "responsive",
+  "front-end",
+  "framework",
+  "web"
+],
   "scripts": {
     "dev": "lr-http-server -p 4200"
   },
