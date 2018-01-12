@@ -15,7 +15,7 @@
     ·
     <a href="http://quinalha.me/the-grid/">Themes</a>
   </p>
-</p>\
+</p>
 <br>
 
 # Install
