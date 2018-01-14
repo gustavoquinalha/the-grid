@@ -3,14 +3,14 @@
   "version": "2.0.1",
   "description": "Simple grid based in flexbox. Botstrap 4 compatible.",
   "keywords": [
-  "css",
-  "sass",
-  "mobile-first",
-  "responsive",
-  "front-end",
-  "framework",
-  "web"
-],
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
   "scripts": {
     "dev": "lr-http-server -p 4200"
   },
@@ -24,7 +24,17 @@
     "url": "https://github.com/gustavoquinalha/the-grid/issues"
   },
   "homepage": "https://github.com/gustavoquinalha/the-grid#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
   "devDependencies": {
-    "lr-http-server": "^0.1.5"
+    "breakpoint-sass": "^2.7.0",
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0"
   }
 }

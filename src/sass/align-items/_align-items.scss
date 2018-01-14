@@ -1,0 +1,104 @@
+@each $media, $size in $sizesDirections {
+  @if $size == '' {
+    .align-items-start#{$size} {
+      align-items: flex-start
+    }
+
+    .align-items-center#{$size} {
+      align-items: center
+    }
+
+    .align-items-end#{$size} {
+      align-items: flex-end
+    }
+
+    .align-items-baseline#{$size} {
+      align-items: baseline
+    }
+
+    .align-items-stretch#{$size} {
+      align-items: stretch
+    }
+
+    .align-center#{$size} {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .align-self-auto#{$size} {
+      align-self: auto
+    }
+
+    .align-self-start#{$size} {
+      align-self: flex-start
+    }
+
+    .align-self-center#{$size} {
+      align-self: center
+    }
+
+    .align-self-end#{$size} {
+      align-self: flex-end
+    }
+
+    .align-self-baseline#{$size} {
+      align-self: baseline
+    }
+
+    .align-self-stretch#{$size} {
+      align-self: stretch
+    }
+  }
+  @else {
+    @media ($media) {
+      .align-items-start#{$size} {
+        align-items: flex-start
+      }
+
+      .align-items-center#{$size} {
+        align-items: center
+      }
+
+      .align-items-end#{$size} {
+        align-items: flex-end
+      }
+
+      .align-items-baseline#{$size} {
+        align-items: baseline
+      }
+
+      .align-items-stretch#{$size} {
+        align-items: stretch
+      }
+
+      .align-center#{$size} {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .align-self-auto#{$size} {
+        align-self: auto
+      }
+
+      .align-self-start#{$size} {
+        align-self: flex-start
+      }
+
+      .align-self-center#{$size} {
+        align-self: center
+      }
+
+      .align-self-end#{$size} {
+        align-self: flex-end
+      }
+
+      .align-self-baseline#{$size} {
+        align-self: baseline
+      }
+
+      .align-self-stretch#{$size} {
+        align-self: stretch
+      }
+    }
+  }
+}

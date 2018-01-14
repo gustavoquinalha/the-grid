@@ -1,0 +1,18 @@
+@each $media, $size in $sizesDirections {
+  @if $size == '' {
+    @for $i from 1 through 12 {
+      .order#{-$i} {
+        order: #{$i}
+      }
+    }
+  }
+  @else {
+    @media ($media) {
+      @for $i from 1 through 12 {
+        .order#{$size}#{-$i} {
+          order: #{$i}
+        }
+      }
+    }
+  }
+}

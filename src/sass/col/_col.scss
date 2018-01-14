@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@each $media, $size in $sizesDirections {
+  @if $size == '' {
+    @for $i from 1 through 12 {
+      .col#{$size}-#{$i} {
+        flex-grow: 0;
+        flex-basis: ($i * 100%) / 12;
+        max-width: ($i * 100%) / 12;
+      }
+    }
+  }
+  @else {
+    @media ($media) {
+      @for $i from 1 through 12 {
+        .col#{$size}-#{$i} {
+          flex-grow: 0;
+          flex-basis: ($i * 100%) / 12;
+          max-width: ($i * 100%) / 12;
+        }
+      }
+    }
+  }
+}

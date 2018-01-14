@@ -1,0 +1,46 @@
+@each $media, $size in $sizesDirections {
+    @if $size == '' {
+      .justify-content-start {
+        justify-content: flex-start
+      }
+
+      .justify-content-center {
+        justify-content: center
+      }
+
+      .justify-content-end {
+        justify-content: flex-end
+      }
+
+      .justify-content-between {
+        justify-content: space-between
+      }
+
+      .justify-content-around {
+        justify-content: space-around
+      }
+  }
+  @else {
+    @media ($media) {
+      .justify-content-start#{$size} {
+        justify-content: flex-start
+      }
+
+      .justify-content-center#{$size} {
+        justify-content: center
+      }
+
+      .justify-content-end#{$size} {
+        justify-content: flex-end
+      }
+
+      .justify-content-between#{$size} {
+        justify-content: space-between
+      }
+
+      .justify-content-around#{$size} {
+        justify-content: space-around
+      }
+    }
+  }
+}

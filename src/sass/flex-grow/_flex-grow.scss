@@ -1,0 +1,5 @@
+@for $i from 0 through 12 {
+  .flex-grow-#{$i} {
+    flex-grow: $i
+  }
+}

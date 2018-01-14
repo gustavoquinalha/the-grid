@@ -1,0 +1,32 @@
+
+@each $media, $size in $sizesDirections {
+  @if $size == "" {
+    .wrap {
+      flex-wrap: wrap
+    }
+
+    .no-wrap {
+      flex-wrap: nowrap
+    }
+
+    .wrap-reverse {
+      flex-wrap: wrap-reverse
+    }
+  }
+  @else {
+    @media ($media) {
+      .wrap#{$size} {
+        flex-wrap: wrap
+      }
+
+      .no-wrap#{$size} {
+        flex-wrap: nowrap
+      }
+
+      .wrap-reverse#{$size} {
+        flex-wrap: wrap-reverse
+      }
+    }
+  }
+
+}

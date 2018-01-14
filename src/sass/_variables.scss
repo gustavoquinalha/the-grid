@@ -1,0 +1,26 @@
+// sizes
+$xs: 576px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$sizes: 'max-width: 576px',
+        'min-width: 576px',
+        'min-width: 768px',
+        'min-width: 992px',
+        'min-width: 1200px';
+
+$cols: '',
+       '-sm',
+       '-md',
+       '-lg',
+       '-xl';
+
+$directions: "row" "row-reverse" "column" "column-reverse";
+
+$sizesDirections: "max-width: 576px" "",
+                  "min-width: 576px" "-sm",
+                  "min-width: 768px" "-md",
+                  "min-width: 992px" "-lg",
+                  "min-width: 1200px" "-xl";

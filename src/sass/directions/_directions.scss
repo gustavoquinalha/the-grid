@@ -1,0 +1,33 @@
+
+@each $media, $size in $sizesDirections {
+  @if $size == '' {
+    .row {
+      flex-direction: row;
+    }
+    .row-reverse {
+      flex-direction: row-reverse;
+    }
+    .column {
+      flex-direction: column;
+    }
+    .column-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+  @else {
+    @media ( #{$media} ) {
+      .row#{$size} {
+        flex-direction: row;
+      }
+      .row-reverse#{$size} {
+        flex-direction: row-reverse;
+      }
+      .column#{$size} {
+        flex-direction: column;
+      }
+      .column-reverse#{$size} {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
