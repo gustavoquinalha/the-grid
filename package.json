@@ -1,9 +1,10 @@
 {
   "name": "the-grid-flexbox",
   "version": "2.0.1",
-  "description": "Simple grid based in flexbox. Botstrap 4 compatible.",
+  "description": "Atomic grid based in flexbox. Mobile first. Botstrap 4 compatible.",
   "keywords": [
     "css",
+    "flexbox",
     "sass",
     "mobile-first",
     "responsive",
@@ -12,7 +13,7 @@
     "web"
   ],
   "scripts": {
-    "dev": "lr-http-server -p 4200"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^3.9.2",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0"
   }
